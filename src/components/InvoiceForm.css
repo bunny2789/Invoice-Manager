@@ -1,0 +1,13 @@
+/* src/components/InvoiceForm.css */
+.invoice-form {
+    padding: 20px;
+  }
+  
+  .invoice-detail {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin: 5px;
+  }
+  

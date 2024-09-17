@@ -1,0 +1,29 @@
+/* src/components/SideDrawer.css */
+.side-drawer {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 600px;
+    height: 100%;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: right 0.3s ease-out;
+    z-index: 1000;
+  }
+  
+  .side-drawer.open {
+    right: 0;
+  }
+  
+  .drawer-content {
+    padding: 20px;
+  }
+  
+  .close-btn {
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  

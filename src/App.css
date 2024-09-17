@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/App.css */
+.homepage {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.customers-page {
+  background-color: #e0e0e0;
+  padding: 20px;
+}
+
+.products-page {
+  background-color: #d0d0d0;
+  padding: 20px;
+}
+
+.invoices-page {
+  background-color: #c0c0c0;
+  padding: 20px;
+}
